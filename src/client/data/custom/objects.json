@@ -1,0 +1,115 @@
+[
+    {
+        "name"    : "Fauchelevent",
+        "type"    : "group0",
+        "depends" : [
+            "Valjean"
+        ]
+    }, {
+        "name"    : "Myriel",
+        "type"    : "CartService",
+        "depends" : []
+    }, {
+        "name"    : "Napoleon",
+        "type"    : "CartService",
+        "depends" : [
+            "Myriel"
+        ]
+    }, {
+        "name"    : "Mlle.Baptistine",
+        "type"    : "CartService",
+        "depends" : [
+            "Myriel"
+        ]
+    }, {
+        "name"    : "Mme.Magloire",
+        "type"    : "CartService",
+        "depends" : [
+            "Myriel",
+            "Mlle.Baptistine"
+        ]
+    }, {
+        "name"    : "CountessdeLo",
+        "type"    : "CartService",
+        "depends" : [
+            "Myriel"
+        ]
+    }, {
+        "name"    : "Geborand",
+        "type"    : "CartService",
+        "depends" : [
+            "Myriel"
+        ]
+    }, {
+        "name"    : "Champtercier",
+        "type"    : "CartService",
+        "depends" : [
+            "Myriel"
+        ]
+    }, {
+        "name"    : "Cravatte",
+        "type"    : "CartService",
+        "depends" : [
+            "Myriel"
+        ]
+    }, {
+        "name"    : "Count",
+        "type"    : "CartService",
+        "depends" : [
+            "Myriel"
+        ]
+    }, {
+        "name"    : "OldMan",
+        "type"    : "CartService",
+        "depends" : [
+            "Myriel"
+        ]
+    }, {
+        "name"    : "Labarre",
+        "type"    : "group2",
+        "depends" : []
+    }, {
+        "name"    : "Valjean",
+        "type"    : "group2",
+        "depends" : [
+            "Labarre",
+            "Mme.Magloire",
+            "Mlle.Baptistine",
+            "Myriel"
+        ]
+    }, {
+        "name"    : "Marguerite",
+        "type"    : "group3",
+        "depends" : [
+            "Valjean"
+        ]
+    }, {
+        "name"    : "Mme.deR",
+        "type"    : "group2",
+        "depends" : [
+            "Valjean"
+        ]
+    }, {
+        "name"    : "Isabeau",
+        "type"    : "group2",
+        "depends" : [
+            "Valjean"
+        ]
+    }, {
+        "name"    : "Gervais",
+        "type"    : "group2",
+        "depends" : [
+            "Valjean"
+        ]
+    }, {
+        "name"    : "Tholomyes",
+        "type"    : "group3",
+        "depends" : []
+    }, {
+        "name"    : "Listolier",
+        "type"    : "group3",
+        "depends" : [
+            "Tholomyes"
+        ]
+    }
+]

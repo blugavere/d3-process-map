@@ -1,4 +1,12 @@
-# d3 process map
+# d3 process map - node.jsified
+
+```bash
+
+npm run dev
+
+```
+
+
 
 This is a PHP web application that displays a directed acyclic graph in a
 modern web browser using [d3.js](http://d3js.org/).  It is designed for

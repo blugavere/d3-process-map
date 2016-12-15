@@ -11,9 +11,9 @@ read_config();
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
         <meta charset="utf-8">
         <title><?php echo $config['title']; ?></title>
-        <link rel="stylesheet" href="bootstrap.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="svg.css">
+        <link rel="stylesheet" href="public/bootstrap.css">
+        <link rel="stylesheet" href="public/style.css">
+        <link rel="stylesheet" href="public/svg.css">
     </head>
     <body>
         <!--[if lt IE 9]>

@@ -1,6 +1,6 @@
 <?php
 error_reporting(E_ALL & ~E_NOTICE);
-require_once 'markdown/Markdown.inc.php';
+require_once './markdown/Markdown.inc.php';
 use \Michelf\Markdown;
 
 $dataset    = 'custom';
@@ -86,7 +86,7 @@ function get_id_string($name) {
 function read_config() {
     global $config, $dataset, $dataset_qs;
 
-    $config = json_decode(file_get_contents("data/$dataset/config.json" ), true);
+    $config = json_decode(file_get_contents("./data/$dataset/config.json" ), true);
     $config['jsonUrl'] = "json.php$dataset_qs";
 }
 
