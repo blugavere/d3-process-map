@@ -1,0 +1,28 @@
+{
+  "name": "d3-process-map",
+  "version": "1.0.0",
+  "description": "This is a PHP web application that displays a directed acyclic graph in a modern web browser using [d3.js](http://d3js.org/).  It is designed for illustrating the relationships between objects in a process.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nylen/d3-process-map.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nylen/d3-process-map/issues"
+  },
+  "homepage": "https://github.com/nylen/d3-process-map#readme",
+  "dependencies": {
+    "d3": "^3.3.13",
+    "express": "^4.14.0",
+    "node-php": "0.0.1",
+    "php": "0.0.1",
+    "php-cgi": "^0.2.0",
+    "php-express": "0.0.3"
+  }
+}

@@ -2,3 +2,4 @@ TODO
 data/*
 !data/default/
 !data/les-mis/
+node_modules
